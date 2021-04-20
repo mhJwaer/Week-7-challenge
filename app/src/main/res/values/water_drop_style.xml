@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="water_drop_style">
+        <item name="cornerSizeTopRight">65%</item>
+        <item name="cornerSizeTopLeft">65%</item>
+        <item name="cornerFamilyTopRight">cut</item>
+        <item name="cornerFamilyTopLeft">cut</item>
+        <item name="cornerSizeBottomLeft">80dp</item>
+        <item name="cornerSizeBottomRight">80dp</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>>
+        <item name="cornerFamilyBottomRight">rounded</item>
+    </style>
+</resources>

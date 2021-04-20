@@ -4,17 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:gravity="center_horizontal">
+    tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/week_7_challenge"
-        android:drawableTint="@color/teal_200"
         android:layout_margin="@dimen/marginNormal"
         android:drawablePadding="@dimen/paddingSmall"
+        android:drawableTint="@color/teal_200"
+        android:text="@string/week_7_challenge"
         android:textSize="@dimen/textLarge"
         app:drawableStartCompat="@drawable/ic_android" />
 
@@ -22,12 +22,14 @@
         android:layout_width="160dp"
         android:layout_height="225dp"
         android:layout_margin="@dimen/marginNormal"
-        android:src="@drawable/first_image_layerlist"/>
+        android:src="@drawable/first_image_layerlist" />
 
-    <ImageView
+    <com.google.android.material.imageview.ShapeableImageView
         android:layout_width="160dp"
         android:layout_height="225dp"
-        android:layout_margin="@dimen/marginNormal"
-        android:src="@drawable/burger"/>
+        android:layout_margin="16dp"
+        android:src="@drawable/burger"
+        app:shapeAppearanceOverlay="@style/water_drop_style"
+        />
 
 </LinearLayout>
